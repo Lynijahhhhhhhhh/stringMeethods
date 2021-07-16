@@ -1,29 +1,33 @@
 1 - What function will convert the text to all uppercase letters.
+upper()
 
 
 2 - What function will convert the text to all lowercase letters.
+lower()
 
 
 3 - What function will find the first instance of a specific character.
-
+.find
 
 4 - What happens if the previous function can not find the character.
-
+it'll return -1
 
 5 - What is an index?
-
+location of a character
 
 6 - What is a slice?
-
+when you break a string
 
 7 - How can we access a string to get a specific character?
-
+make a variable for the string and .find the string
 
 8 - How can we slice a string to get a specific set characters?
+string[startIndex:endIndex]
 
 
 9 - Can you slice a string multiple times?
-
+yes.. like ::3 which will slice every third character or you can slice the same string multiple times and print those outcomes like string[1:2] and another line string[5:6]
 
 10 - What happens if you supply position -1 when accessing a string?
+It'll go to the end of the string. 
 
